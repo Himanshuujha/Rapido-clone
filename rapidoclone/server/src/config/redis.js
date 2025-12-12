@@ -47,27 +47,33 @@ const connectRedis = async () => {
   try {
     redisClient = createRedisClient('main');
     await redisClient.connect();
-    
+
     // Test connection
     await redisClient.ping();
-    logger.info('Redis connection established');
-    
+    logger.info('✅ Redis connection established');
     return redisClient;
   } catch (error) {
-    logger.error('Redis connection failed:', error.message);
-    throw error;
+    logger.warn('⚠️ Redis connection failed. Server will start without cache.');
+    logger.warn('Redis error:', error.message);
+    // Don't throw error - make Redis optional
+    redisClient = null;
+    return null;
   }
 };
 
 const getClient = () => {
   if (!redisClient) {
-    throw new Error('Redis client not initialized. Call connectRedis first.');
+    // Return null instead of throwing error when Redis is not available
+    return null;
   }
   return redisClient;
 };
 
 const getSubscriber = () => {
   if (!redisSubscriber) {
+    if (!redisClient) {
+      return null; // Redis not available
+    }
     redisSubscriber = createRedisClient('subscriber');
     redisSubscriber.connect();
   }
@@ -78,7 +84,9 @@ const getSubscriber = () => {
 const cache = {
   async get(key) {
     try {
-      const data = await getClient().get(key);
+      const client = getClient();
+      if (!client) return null; // Redis not available
+      const data = await client.get(key);
       return data ? JSON.parse(data) : null;
     } catch (error) {
       logger.warn(`Cache get failed for key ${key}:`, error.message);
@@ -88,7 +96,9 @@ const cache = {
 
   async set(key, value, ttl = 3600) {
     try {
-      await getClient().setex(key, ttl, JSON.stringify(value));
+      const client = getClient();
+      if (!client) return; // Redis not available
+      await client.setex(key, ttl, JSON.stringify(value));
     } catch (error) {
       logger.warn(`Cache set failed for key ${key}:`, error.message);
     }
@@ -96,7 +106,9 @@ const cache = {
 
   async del(key) {
     try {
-      await getClient().del(key);
+      const client = getClient();
+      if (!client) return; // Redis not available
+      await client.del(key);
     } catch (error) {
       logger.warn(`Cache del failed for key ${key}:`, error.message);
     }
@@ -104,9 +116,11 @@ const cache = {
 
   async delPattern(pattern) {
     try {
-      const keys = await getClient().keys(pattern);
+      const client = getClient();
+      if (!client) return; // Redis not available
+      const keys = await client.keys(pattern);
       if (keys.length > 0) {
-        await getClient().del(...keys);
+        await client.del(...keys);
       }
     } catch (error) {
       logger.warn(`Cache delPattern failed for pattern ${pattern}:`, error.message);
@@ -115,7 +129,9 @@ const cache = {
 
   async exists(key) {
     try {
-      return await getClient().exists(key);
+      const client = getClient();
+      if (!client) return 0; // Redis not available
+      return await client.exists(key);
     } catch (error) {
       logger.warn(`Cache exists failed for key ${key}:`, error.message);
       return 0;
@@ -124,7 +140,9 @@ const cache = {
 
   async incr(key) {
     try {
-      return await getClient().incr(key);
+      const client = getClient();
+      if (!client) return 0; // Redis not available
+      return await client.incr(key);
     } catch (error) {
       logger.warn(`Cache incr failed for key ${key}:`, error.message);
       return 0;
@@ -133,7 +151,9 @@ const cache = {
 
   async expire(key, ttl) {
     try {
-      await getClient().expire(key, ttl);
+      const client = getClient();
+      if (!client) return; // Redis not available
+      await client.expire(key, ttl);
     } catch (error) {
       logger.warn(`Cache expire failed for key ${key}:`, error.message);
     }

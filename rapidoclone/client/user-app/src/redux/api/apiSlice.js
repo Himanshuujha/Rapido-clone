@@ -4,7 +4,6 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const API_BASE_URL =
   process.env.REACT_APP_API_URL || 'http://localhost:5000/api/v1';
 
-// Helper to get token from localStorage (same idea as in services/api.js)
 const getTokenFromStorage = () => {
   if (typeof window === 'undefined') return null;
   try {
@@ -30,85 +29,29 @@ export const apiSlice = createApi({
       return headers;
     },
   }),
-  tagTypes: ['User', 'Ride', 'Wallet'],
-  endpoints: (builder) => ({
-    // ===== User / Profile =====
-    getProfile: builder.query({
-      query: () => '/users/profile',
-      providesTags: ['User'],
-    }),
-    updateProfile: builder.mutation({
-      query: (body) => ({
-        url: '/users/profile',
-        method: 'PUT',
-        body,
-      }),
-      invalidatesTags: ['User'],
-    }),
-
-    // ===== Rides =====
-    getFareEstimate: builder.mutation({
-      query: (body) => ({
-        url: '/rides/estimate',
-        method: 'POST',
-        body,
-      }),
-    }),
-    bookRide: builder.mutation({
-      query: (body) => ({
-        url: '/rides/book',
-        method: 'POST',
-        body,
-      }),
-      invalidatesTags: ['Ride', 'Wallet'],
-    }),
-    getActiveRide: builder.query({
-      query: () => '/rides/active',
-      providesTags: ['Ride'],
-    }),
-    getRideHistory: builder.query({
-      query: () => '/rides/history',
-      providesTags: ['Ride'],
-    }),
-    cancelRide: builder.mutation({
-      query: ({ rideId, reason }) => ({
-        url: `/rides/${rideId}/cancel`,
-        method: 'POST',
-        body: { reason },
-      }),
-      invalidatesTags: ['Ride', 'Wallet'],
-    }),
-
-    // ===== Wallet =====
-    getWalletBalance: builder.query({
-      query: () => '/wallet/balance',
-      providesTags: ['Wallet'],
-    }),
-    getWalletTransactions: builder.query({
-      query: () => '/wallet/transactions',
-      providesTags: ['Wallet'],
-    }),
-    topupWallet: builder.mutation({
-      query: (body) => ({
-        url: '/wallet/topup',
-        method: 'POST',
-        body,
-      }),
-      invalidatesTags: ['Wallet'],
-    }),
-  }),
+  // ✅ ADD ALL TAG TYPES HERE
+  tagTypes: [
+    // User related
+    'User',
+    'UserStats',
+    'SavedLocations',
+    'EmergencyContacts',
+    'NotificationSettings',
+    // Ride related
+    'Ride',
+    'RideHistory',
+    'ActiveRide',
+    // Wallet related
+    'Wallet',
+    'WalletTransactions',
+    'WalletStats',
+    'Withdrawals',
+    'PaymentMethods',
+    'Rewards',
+    'Referral',
+    'BankAccounts',
+  ],
+  endpoints: () => ({}), // Empty - endpoints injected from other files
 });
 
-// Auto-generated hooks
-export const {
-  useGetProfileQuery,
-  useUpdateProfileMutation,
-  useGetFareEstimateMutation,
-  useBookRideMutation,
-  useGetActiveRideQuery,
-  useGetRideHistoryQuery,
-  useCancelRideMutation,
-  useGetWalletBalanceQuery,
-  useGetWalletTransactionsQuery,
-  useTopupWalletMutation,
-} = apiSlice;
+// Don't export hooks from here - they come from injected endpoints

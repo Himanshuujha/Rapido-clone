@@ -66,15 +66,13 @@ const startServer = async () => {
       logger.warn('⚠️ MongoDB connection failed. Server will start without database.', error.message);
     }
 
-    // Connect to Redis with error handling
-    try {
-      console.log('[DEBUG] Attempting Redis connection...');
-      await connectRedis();
+    // Connect to Redis (optional)
+    console.log('[DEBUG] Attempting Redis connection...');
+    const redisConnected = await connectRedis();
+    if (redisConnected) {
       console.log('[DEBUG] Redis connection successful');
-      logger.info('✅ Redis connected successfully');
-    } catch (error) {
-      console.log('[DEBUG] Redis connection error:', error.message);
-      logger.warn('⚠️ Redis connection failed. Server will start without cache.', error.message);
+    } else {
+      console.log('[DEBUG] Redis not available, using memory store');
     }
 
     // Initialize background jobs

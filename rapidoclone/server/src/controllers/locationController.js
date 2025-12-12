@@ -1043,6 +1043,7 @@ exports.removeRecentLocation = asyncHandler(async (req, res, next) => {
  * @access  Private (User)
  */
 exports.getSavedLocations = asyncHandler(async (req, res, next) => {
+  console.log('Fetching saved locations for user:', req.user._id);
   const userId = req.user._id;
 
   const user = await User.findById(userId).select('savedLocations');

@@ -6,6 +6,7 @@ const getInitialAuthState = () => {
     return {
       user: null,
       token: null,
+      isAuthenticated: false,
       loading: false,
       error: null,
     };
@@ -17,6 +18,7 @@ const getInitialAuthState = () => {
       return {
         user: null,
         token: null,
+        isAuthenticated: false,
         loading: false,
         error: null,
       };
@@ -25,6 +27,7 @@ const getInitialAuthState = () => {
     return {
       user: parsed.user || null,
       token: parsed.token || null,
+      isAuthenticated: !!(parsed.token && parsed.user),
       loading: false,
       error: null,
     };
@@ -33,6 +36,7 @@ const getInitialAuthState = () => {
     return {
       user: null,
       token: null,
+      isAuthenticated: false,
       loading: false,
       error: null,
     };
@@ -41,38 +45,73 @@ const getInitialAuthState = () => {
 
 const initialState = getInitialAuthState();
 
+// Helper to sync with localStorage
+const syncToLocalStorage = (user, token) => {
+  if (typeof window === 'undefined') return;
+  
+  if (user && token) {
+    localStorage.setItem('auth', JSON.stringify({ user, token }));
+  } else {
+    localStorage.removeItem('auth');
+  }
+};
+
 const authSlice = createSlice({
   name: 'auth',
   initialState,
   reducers: {
-    // Set user & token (used on login)
     setCredentials: (state, action) => {
       const { user, token } = action.payload || {};
       state.user = user || null;
       state.token = token || null;
+      state.isAuthenticated = !!(user && token);
       state.error = null;
+      state.loading = false;
+      
+      // Sync to localStorage
+      syncToLocalStorage(user, token);
     },
 
-    // Clear all auth data (used on logout)
     clearAuth: (state) => {
       state.user = null;
       state.token = null;
+      state.isAuthenticated = false;
       state.loading = false;
       state.error = null;
+      
+      // Clear localStorage
+      if (typeof window !== 'undefined') {
+        localStorage.removeItem('auth');
+      }
     },
 
-    // For async actions (login/register)
     setAuthLoading: (state, action) => {
       state.loading = Boolean(action.payload);
     },
 
     setAuthError: (state, action) => {
       state.error = action.payload || null;
+      state.loading = false;
     },
 
-    // Update user profile without touching token
     setUser: (state, action) => {
       state.user = action.payload || null;
+      
+      // Update localStorage with new user data
+      if (state.token && action.payload) {
+        syncToLocalStorage(action.payload, state.token);
+      }
+    },
+
+    updateUserField: (state, action) => {
+      if (state.user && action.payload) {
+        state.user = { ...state.user, ...action.payload };
+        
+        // Sync updated user to localStorage
+        if (state.token) {
+          syncToLocalStorage(state.user, state.token);
+        }
+      }
     },
   },
 });
@@ -83,6 +122,14 @@ export const {
   setAuthLoading,
   setAuthError,
   setUser,
+  updateUserField,
 } = authSlice.actions;
+
+// Selectors
+export const selectCurrentUser = (state) => state.auth.user;
+export const selectCurrentToken = (state) => state.auth.token;
+export const selectIsAuthenticated = (state) => state.auth.isAuthenticated;
+export const selectAuthLoading = (state) => state.auth.loading;
+export const selectAuthError = (state) => state.auth.error;
 
 export default authSlice.reducer;
