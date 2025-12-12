@@ -73,6 +73,28 @@ const userSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Wallet'
   },
+  savedCards: [{
+    id: { type: String, required: true },
+    last4: { type: String, required: true },
+    brand: { type: String }, // visa, mastercard, etc.
+    expiryMonth: { type: Number },
+    expiryYear: { type: Number },
+    cardHolderName: { type: String },
+    isDefault: { type: Boolean, default: false },
+    addedAt: { type: Date, default: Date.now }
+  }],
+
+  savedUPI: [{
+    id: { type: String, required: true },
+    upiId: { type: String, required: true },
+    verified: { type: Boolean, default: false },
+    customerName: { type: String },
+    isDefault: { type: Boolean, default: false },
+    addedAt: { type: Date, default: Date.now }
+  }],
+
+  // Stripe customer ID for saved cards
+  stripeCustomerId: { type: String },
   ratings: {
     average: { type: Number, default: 5 },
     count: { type: Number, default: 0 }

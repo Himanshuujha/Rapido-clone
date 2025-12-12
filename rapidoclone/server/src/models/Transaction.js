@@ -1,3 +1,6 @@
+// src/models/Transaction.js
+const mongoose = require('mongoose');
+
 const transactionSchema = new mongoose.Schema({
   wallet: {
     type: mongoose.Schema.Types.ObjectId,

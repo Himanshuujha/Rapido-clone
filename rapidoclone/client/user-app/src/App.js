@@ -13,7 +13,7 @@ import Register from './pages/Register';
 import BookRide from './pages/BookRide';
 import RideHistory from './pages/RideHistory';
 import Profile from './pages/Profile';
-import ActiveRide from './pages/ActiveRide';
+import ActiveRide from './pages/ActivateRide';
 import Wallet from './pages/Wallet';
 
 // Context

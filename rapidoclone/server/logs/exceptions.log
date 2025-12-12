@@ -1,0 +1,1738 @@
+2025-12-11 19:15:01:151 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:15:07:157 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:15:20:1520 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:15:33:1533 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:15:43:1543 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:16:30:1630 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:16:59:1659 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:17:46:1746 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:17:55:1755 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:18:40:1840 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:19:23:1923 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:19:28:1928 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:19:35:1935 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:19:45:1945 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:19:47:1947 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:19:53:1953 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:20:00:200 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:20:03:203 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:20:06:206 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:20:47:2047 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:20:49:2049 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:20:53:2053 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:21:01:211 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:21:02:212 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:22:12:2212 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31mnode:internal/modules/cjs/loader:1404[39m
+[31m  throw err;[39m
+[31m  ^[39m
+
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:22:53:2253 [31merror[39m: [31muncaughtException: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31mnode:internal/modules/cjs/loader:1404[39m
+[31m  throw err;[39m
+[31m  ^[39m
+
+[31mError: Cannot find module '../models/Admin'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/auth.js:5:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:23:30:2330 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:23:32:2332 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:23:38:2338 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:23:44:2344 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:23:58:2358 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31mnode:internal/modules/cjs/loader:1404[39m
+[31m  throw err;[39m
+[31m  ^[39m
+
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:24:23:2423 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:24:26:2426 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:24:29:2429 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:24:51:2451 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31mnode:internal/modules/cjs/loader:1404[39m
+[31m  throw err;[39m
+[31m  ^[39m
+
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:24:2524 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:29:2529 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:30:2530 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:33:2533 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:36:2536 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:40:2540 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:44:2544 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:25:52:2552 [31merror[39m: [31muncaughtException: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31mnode:internal/modules/cjs/loader:1404[39m
+[31m  throw err;[39m
+[31m  ^[39m
+
+[31mError: Cannot find module 'rate-limit-redis'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:3:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:26:29:2629 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:255:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:26:35:2635 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:255:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:26:38:2638 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:26:40:2640 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:26:44:2644 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:26:55:2655 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:06:276 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:28:2728 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:28:2728 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:34:2734 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:34:2734 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:39:2739 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:39:2739 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:42:2742 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:27:51:2751 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:28:01:281 [31merror[39m: [31muncaughtException: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31mnode:internal/modules/cjs/loader:1404[39m
+[31m  throw err;[39m
+[31m  ^[39m
+
+[31mError: Cannot find module 'express-slow-down'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/[eval][39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:256:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:28:19:2819 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:28:21:2821 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:28:30:2830 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31m/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:264[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1662:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1704:20)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:6:25)[39m
+2025-12-11 19:28:35:2835 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31m/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:264[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1662:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1704:20)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:6:25)[39m
+2025-12-11 19:28:36:2836 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31m/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:264[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1662:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1704:20)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:6:25)[39m
+2025-12-11 19:28:44:2844 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31m/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:264[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1662:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1704:20)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:6:25)[39m
+2025-12-11 19:28:59:2859 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31m/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:264[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1662:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1704:20)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:6:25)[39m
+2025-12-11 19:29:04:294 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31m/workspaces/Rapido-clone/rapidoclone/server/src/middlewares/rateLimiter.js:264[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1662:18)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1704:20)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:6:25)[39m
+2025-12-11 19:30:16:3016 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:30:20:3020 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:30:36:3036 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:30:59:3059 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:32:26:3226 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:55:37:5537 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:57:22:5722 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:57:25:5725 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:57:29:5729 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:57:34:5734 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:57:36:5736 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:57:41:5741 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:57:57:5757 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31m/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216[39m
+[31m        throw new Error(msg);[39m
+[31m        ^[39m
+
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/route.js:216:15)[39m
+[31m    at proto.<computed> [as post] (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:521:19)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/routes/authRoutes.js:44:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+2025-12-11 19:58:18:5818 [31merror[39m: [31muncaughtException: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js:3:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:58:22:5822 [31merror[39m: [31muncaughtException: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js:3:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:58:24:5824 [31merror[39m: [31muncaughtException: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js:3:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:58:33:5833 [31merror[39m: [31muncaughtException: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js:3:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:58:39:5839 [31merror[39m: [31muncaughtException: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js:3:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:58:40:5840 [31merror[39m: [31muncaughtException: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31mError: Cannot find module '../models/SavedLocation'[39m
+[31mRequire stack:[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/src/routes/userRoutes.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/app.js[39m
+[31m- /workspaces/Rapido-clone/rapidoclone/server/server.js[39m
+[31m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[31m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[31m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/src/controllers/userController.js:3:23)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+2025-12-11 19:59:31:5931 [31merror[39m: [31muncaughtException: authRoutes is not defined[39m
+[31mReferenceError: authRoutes is not defined[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/app.js:332:31)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[31m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[31m    at require (node:internal/modules/helpers:135:16)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/server.js:6:13)[39m
