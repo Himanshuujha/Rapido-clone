@@ -1,9 +1,12 @@
 // src/sockets/index.js
 const { Server } = require('socket.io');
 const logger = require('../utils/logger');
+
 const initializeRideSocket = require('./rideSocket');
 const initializeLocationSocket = require('./locationSocket');
 const initializeChatSocket = require('./chatSocket');
+
+const { initSocketService } = require('../services/socketService');
 
 /**
  * Initialize Socket.io with all socket handlers
@@ -26,16 +29,28 @@ const initializeSocket = (server) => {
     reconnectionAttempts: 5,
   });
 
-  // Middleware for socket authentication (optional)
+  // Optional socket auth middleware
   io.use((socket, next) => {
-    // Add authentication logic here if needed
-    // For now, allow all connections
+    // Add token-based auth here if needed later
     next();
   });
 
-  // Connection event handler
   io.on('connection', (socket) => {
     logger.info(`Client connected: ${socket.id}`);
+
+    // 🔑 JOIN USER ROOM
+    socket.on('join:user', (userId) => {
+      if (!userId) return;
+      socket.join(`user:${userId}`);
+      logger.info(`Socket ${socket.id} joined user:${userId}`);
+    });
+
+    // 🔑 JOIN CAPTAIN ROOM
+    socket.on('join:captain', (captainId) => {
+      if (!captainId) return;
+      socket.join(`captain:${captainId}`);
+      logger.info(`Socket ${socket.id} joined captain:${captainId}`);
+    });
 
     socket.on('disconnect', () => {
       logger.info(`Client disconnected: ${socket.id}`);
@@ -46,10 +61,13 @@ const initializeSocket = (server) => {
     });
   });
 
-  // Initialize socket modules
+  // Initialize feature-specific socket modules
   initializeRideSocket(io);
   initializeLocationSocket(io);
   initializeChatSocket(io);
+
+  // 🔥 Make io available to socketService (VERY IMPORTANT)
+  initSocketService(io);
 
   logger.info('✅ Socket.io initialized successfully');
 

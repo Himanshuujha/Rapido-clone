@@ -513,6 +513,7 @@ exports.getActiveRide = asyncHandler(async (req, res) => {
  * @access  Private (User)
  */
 exports.getRideHistory = asyncHandler(async (req, res) => {
+  console.log('Getting ride history for user:', req.user._id);
   const { page, limit, skip } = parsePagination(req.query);
   const { status, startDate, endDate } = req.query;
 

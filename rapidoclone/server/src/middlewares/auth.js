@@ -110,6 +110,7 @@ const isPasswordChangedAfterToken = (entity, tokenIssuedAt) => {
  * @param {Object} options - Configuration options
  */
 const createAuthMiddleware = (options) => {
+  console.log('Creating auth middleware with options:');
   const {
     model,
     entityKey,
@@ -134,9 +135,13 @@ const createAuthMiddleware = (options) => {
     const decoded = verifyToken(token);
 
     // Validate role if specified
-    if (allowedRoles.length > 0 && !allowedRoles.includes(decoded.role)) {
+   // Normalize legacy tokens (no role)
+    const role = decoded.role || 'user';
+
+    if (allowedRoles.length > 0 && !allowedRoles.includes(role)) {
       throw ApiError.forbidden('Access denied. Invalid role', 'INVALID_ROLE');
     }
+
 
     // Get entity from database
     const entity = await model.findById(decoded.id).select('-password -refreshToken');
@@ -189,6 +194,7 @@ const createAuthMiddleware = (options) => {
  * @usage   router.get('/profile', protect, controller.getProfile)
  */
 const protect = createAuthMiddleware({
+
   model: User,
   entityKey: 'user',
   allowedRoles: ['user', ''], // Empty string for legacy tokens without role

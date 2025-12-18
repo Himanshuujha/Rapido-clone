@@ -23,11 +23,12 @@ const RideHistory = () => {
     try {
       setLoading(true);
       setError('');
-
+      console.log('Fetching ride history...');
       const response = await api.get('/rides/history');
-      const data = response.data?.data || response.data;
+      console.log('Ride history response:', response);
+      const rides = response.data?.data?.rides || [];
+      setRides(Array.isArray(rides) ? rides : []);
 
-      setRides(Array.isArray(data) ? data : []);
     } catch (err) {
       console.error(err);
       setError('Failed to load ride history');

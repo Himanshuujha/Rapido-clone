@@ -1736,3 +1736,15 @@
 [31m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
 [31m    at require (node:internal/modules/helpers:135:16)[39m
 [31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/server.js:6:13)[39m
+2025-12-15 12:37:41:3741 [31merror[39m: [31muncaughtException: Router.use() requires a middleware function but got a Object[39m
+[31mTypeError: Router.use() requires a middleware function but got a Object[39m
+[31m    at Function.use (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/router/index.js:469:13)[39m
+[31m    at Function.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/application.js:227:21)[39m
+[31m    at Array.forEach (<anonymous>)[39m
+[31m    at Function.use (/workspaces/Rapido-clone/rapidoclone/server/node_modules/express/lib/application.js:224:7)[39m
+[31m    at Object.<anonymous> (/workspaces/Rapido-clone/rapidoclone/server/app.js:154:21)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m
+[31m    at Object..js (node:internal/modules/cjs/loader:1895:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1465:32)[39m
+[31m    at Function._load (node:internal/modules/cjs/loader:1282:12)[39m
+[31m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m

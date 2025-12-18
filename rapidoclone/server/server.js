@@ -8,8 +8,9 @@ const app = require('./app');
 console.log('[DEBUG] 3. Requiring database config');
 const connectDB = require('./src/config/database');
 
-console.log('[DEBUG] 4. Requiring redis config');
-const { connectRedis } = require('./src/config/redis');
+// ❌ REDIS DISABLED (commented)
+// console.log('[DEBUG] 4. Requiring redis config');
+// const { connectRedis } = require('./src/config/redis');
 
 console.log('[DEBUG] 5. Requiring socket initialization');
 const initializeSocket = require('./src/sockets');
@@ -26,8 +27,10 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 
 // Development defaults for secrets (do NOT use in production)
 if (NODE_ENV !== 'production') {
-  process.env.JWT_SECRET = process.env.JWT_SECRET || 'dev_jwt_secret_change_me';
-  process.env.JWT_REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'dev_jwt_refresh_secret_change_me';
+  process.env.JWT_SECRET =
+    process.env.JWT_SECRET || 'dev_jwt_secret_change_me';
+  process.env.JWT_REFRESH_SECRET =
+    process.env.JWT_REFRESH_SECRET || 'dev_jwt_refresh_secret_change_me';
 }
 
 console.log('[DEBUG] 8. Environment loaded - PORT:', PORT, 'NODE_ENV:', NODE_ENV);
@@ -55,7 +58,7 @@ const startServer = async () => {
   try {
     console.log('[DEBUG] startServer called');
 
-    // Connect to MongoDB with error handling
+    // Connect to MongoDB
     try {
       console.log('[DEBUG] Attempting MongoDB connection...');
       await connectDB();
@@ -63,10 +66,14 @@ const startServer = async () => {
       logger.info('✅ MongoDB connected successfully');
     } catch (error) {
       console.log('[DEBUG] MongoDB connection error:', error.message);
-      logger.warn('⚠️ MongoDB connection failed. Server will start without database.', error.message);
+      logger.warn(
+        '⚠️ MongoDB connection failed. Server will start without database.',
+        error.message
+      );
     }
 
-    // Connect to Redis (optional)
+    // ❌ REDIS DISABLED
+    /*
     console.log('[DEBUG] Attempting Redis connection...');
     const redisConnected = await connectRedis();
     if (redisConnected) {
@@ -74,6 +81,9 @@ const startServer = async () => {
     } else {
       console.log('[DEBUG] Redis not available, using memory store');
     }
+    */
+
+    console.log('[DEBUG] Redis skipped (temporarily disabled)');
 
     // Initialize background jobs
     try {
@@ -83,24 +93,26 @@ const startServer = async () => {
       logger.info('✅ Background jobs initialized');
     } catch (error) {
       console.log('[DEBUG] Jobs initialization error:', error.message);
-      logger.warn('⚠️ Background jobs initialization failed.', error.message);
+      logger.warn(
+        '⚠️ Background jobs initialization failed.',
+        error.message
+      );
     }
 
     // Start listening
     console.log('[DEBUG] Starting HTTP server on port', PORT);
     server.listen(PORT, () => {
       logger.info(`
-      ╔═══════════════════════════════════════════════════╗
-      ║                                                   ║
-      ║   🚀 RAPIDO CLONE SERVER STARTED                  ║
-      ║                                                   ║
-      ║   🌐 Environment: ${NODE_ENV.padEnd(28)}║
-      ║   🔗 Port: ${PORT.toString().padEnd(35)}║
-      ║   📡 API: http://localhost:${PORT}/api/v1${' '.repeat(10)}║
-      ║   📚 Docs: http://localhost:${PORT}/api/docs${' '.repeat(7)}║
-      ║   ❤️  Health: http://localhost:${PORT}/health${' '.repeat(6)}║
-      ║                                                   ║
-      ╚═══════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════╗
+║                                                   ║
+║   🚀 RAPIDO CLONE SERVER STARTED                  ║
+║                                                   ║
+║   🌐 Environment: ${NODE_ENV.padEnd(28)}║
+║   🔗 Port: ${PORT.toString().padEnd(35)}║
+║   📡 API: http://localhost:${PORT}/api/v1          ║
+║   ❤️  Health: http://localhost:${PORT}/health     ║
+║                                                   ║
+╚═══════════════════════════════════════════════════╝
       `);
     });
 
@@ -114,11 +126,9 @@ const startServer = async () => {
         case 'EACCES':
           logger.error(`Port ${PORT} requires elevated privileges`);
           process.exit(1);
-          break;
         case 'EADDRINUSE':
           logger.error(`Port ${PORT} is already in use`);
           process.exit(1);
-          break;
         default:
           throw error;
       }

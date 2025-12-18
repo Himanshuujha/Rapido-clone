@@ -3,7 +3,38 @@ import axios from 'axios';
 import { store } from '../redux/store';
 import { clearAuth } from '../redux/slices/authSlice';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api/v1';
+const getApiBaseUrl = () => {
+  // 1. Check environment variable first (highest priority)
+  if (process.env.REACT_APP_API_URL) {
+    console.log('Using env API URL:', process.env.REACT_APP_API_URL);
+    return process.env.REACT_APP_API_URL;
+  }
+  
+  // 2. For GitHub Codespaces - auto-detect and replace port
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname;
+    
+    // GitHub Codespaces pattern: {name}-{port}.app.github.dev
+    if (hostname.includes('.app.github.dev')) {
+      // Replace any port with 5000
+      const backendHostname = hostname.replace(/-\d+\.app\.github\.dev$/, '-5000.app.github.dev');
+      const apiUrl = `https://${backendHostname}/api/v1`;
+      console.log('Codespaces API URL:', apiUrl);
+      return apiUrl;
+    }
+    
+    // Gitpod pattern
+    if (hostname.includes('.gitpod.io')) {
+      const backendHostname = hostname.replace(/\d+/, '5000');
+      return `https://${backendHostname}/api/v1`;
+    }
+  }
+  
+  // 3. Default for local development
+  return 'https://sturdy-guide-4jgj6wgwp6x92j6p4-5000.app.github.dev/api/v1';
+};
+
+const API_BASE_URL = getApiBaseUrl();
 
 // Create axios instance
 const api = axios.create({
@@ -12,8 +43,10 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 30000, // 30 seconds
+  timeout: 30000,
 });
+
+// ... rest of your interceptors (they look good)
 
 // Helper to safely get token from localStorage
 const getTokenFromStorage = () => {
@@ -36,6 +69,10 @@ api.interceptors.request.use(
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }
+    
+    // Debug log for requests
+    console.log(`API Request: ${config.method?.toUpperCase()} ${config.baseURL}${config.url}`);
+    
     return config;
   },
   (error) => {
@@ -53,7 +90,6 @@ api.interceptors.response.use(
     if (error.response?.status === 401 && !originalRequest._retry) {
       originalRequest._retry = true;
       
-      // Try to refresh token
       try {
         const refreshResponse = await axios.post(
           `${API_BASE_URL}/auth/refresh`,
@@ -64,17 +100,14 @@ api.interceptors.response.use(
         const { token } = refreshResponse.data;
         
         if (token) {
-          // Update localStorage
           const authData = JSON.parse(localStorage.getItem('auth') || '{}');
           authData.token = token;
           localStorage.setItem('auth', JSON.stringify(authData));
           
-          // Retry original request
           originalRequest.headers.Authorization = `Bearer ${token}`;
           return api(originalRequest);
         }
       } catch (refreshError) {
-        // Refresh failed - clear auth and redirect
         store.dispatch(clearAuth());
         
         if (typeof window !== 'undefined') {

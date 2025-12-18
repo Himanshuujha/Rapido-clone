@@ -106,6 +106,17 @@ const generateRandomString = (length = 8) => {
   }
   return result;
 };
+/**
+ * Parse pagination params from query
+ */
+const parsePagination = (query = {}) => {
+  const page = Math.max(parseInt(query.page, 10) || 1, 1);
+  const limit = Math.min(parseInt(query.limit, 10) || 10, 100);
+  const skip = (page - 1) * limit;
+
+  return { page, limit, skip };
+};
+
 
 module.exports = {
   generateOTP,
@@ -117,4 +128,6 @@ module.exports = {
   chunkArray,
   retryAsync,
   generateRandomString,
+  parsePagination, // ✅ ADD THIS
 };
+
